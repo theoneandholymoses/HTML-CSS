@@ -13,7 +13,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/theoneandholymoses/project
+git clone https://github.com/theoneandholymoses/HTML-CSS
 Open index.html in a Web Browser:
 Open the index.html file in your preferred web browser to view the project.
 
