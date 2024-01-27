@@ -1,0 +1,377 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#home,
+#about,
+#gallery,
+#contactUs {
+    scroll-margin-top: 100px;
+}
+
+header {
+    position: sticky!important;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+}
+
+.logo {
+    display: flex;
+    gap: 1em;
+}
+
+.logo > a{
+    text-decoration: none;
+    color: azure;
+}
+
+.logo>img {
+    height: 2em;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.navBar li {
+    list-style-type: none;
+    padding: 0 1em;
+}
+
+.navBar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    font-size: 1.5em;
+    color: azure;
+}
+
+.nav-links:hover {
+    background-color: pink;
+    border-radius: 15px;
+}
+
+.hidden {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+}
+
+.hamburger {
+    display: none;
+
+  }
+#home{
+    height: 15em;
+    font-size: 2em;
+    font-style: italic;
+    color: pink;;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../assets/images/backgroudIMG.png);
+    background-size: cover;
+}
+
+#home > P{
+    color: pink;
+}
+
+
+#gallery,#home,
+header {
+    text-align: center;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 2px  pink;
+    height: 4em;
+  }
+
+.technologies>img{
+    width: 2em;
+    height: 2em;
+}
+
+#about{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50em;
+    box-shadow: 0px 2px  pink;
+}
+
+#about> h2{
+    height: 1em;
+    color: black;
+    font-size: 2em;
+}
+
+
+#about> h3{
+    margin-top: 1em;
+    height: 2em;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.aboutImg > img{
+    margin-top: 1.5em;
+    height: 20em;
+    width: 100%;
+    border-radius: 15%;
+}
+
+#about > p{
+    margin: 1em 1em;
+    font-size: 1.25em;
+    font-style:italic;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: rgb(230, 132, 148);
+}
+
+.button-container {
+    margin: 1.5em;
+}
+
+#container-footer,
+header {
+    background-color: rgb(109, 107, 107);
+    color: azure;
+    padding: 1.5em;
+    display: flex;
+    gap: 1em;
+}
+
+#gallery{
+    margin-top: 2em;
+}
+
+#gallery > h2,h3{
+    font-style: italic;
+}
+
+
+.card {
+    height: 20em;
+    width: 200px;
+    margin: 2em;
+    box-shadow: 5px 5px 15px gray;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 0.75s;
+}
+
+.card > img{
+    width: 200px;
+}
+
+.card a:hover{
+    cursor: pointer;
+}
+.card > a{
+    text-decoration: none;
+    background-color: pink;
+    padding: 0.75em;
+    border-radius: 15px;
+}
+
+.card > a:hover{
+
+    background-color: rgb(230, 132, 148);
+    transition: 0.7s;
+
+}
+
+.projectTech > img{
+    width: 1.25em;
+    padding: 0.5em 0;
+}
+
+#container-gallery {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    margin-top: 2em;
+    padding: 2em 2em;
+    box-shadow: 0 0 15px pink;
+    border-radius: 15px;
+}
+
+.contact-container>h1,p {
+    color: black;
+    padding: 1em 0;
+    font-style: italic;
+}
+
+.contact-container > p{
+    
+    font-weight: bold;
+}
+.contact-container>form {
+    display: grid;
+    margin-top: 1em;
+    gap: 1em;
+}
+
+.contact-container>label {
+    display: block;
+    font-weight: bold;
+
+}
+
+.contact-container>input, textarea {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-container>textarea {
+    resize: vertical;
+}
+
+.contact-container form button {
+    text-decoration: none;
+    background-color: pink;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.contact-container form button:hover {
+    background-color: rgb(230, 132, 148);
+    text-decoration: none;
+}
+
+.contact-Icons{
+    height: 10em;
+    padding: 2rem;
+    background-color: pink;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-icons > IMG,h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.contact-Icons-box{
+    width: 200px;
+}
+
+#container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1em 2em;
+}
+
+#container-footer > p{
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+
+    .navBar {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background-color: rgb(109, 107, 107);
+        z-index: 1;
+        display: none; 
+    }
+
+    .nav-links {
+        margin: 0.5em 0;
+        padding: 1em;
+        text-align: center;
+        border-bottom: none;
+    }
+
+    .hamburger {
+        display: block;
+        color: azure;
+        text-align: right;
+        font-size: 1.5em;
+        padding: 0 1em;
+        cursor: pointer;
+    }
+
+    #menu-toggle:checked ~ .navBar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        z-index: 2; 
+    }
+
+    .navBar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-end;
+    }
+    
+    .contact-Icons {
+        height: auto;
+    }
+
+
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata for character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the webpage -->
+    <title>Portfolio</title>
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <!-- Header section containing logo, navigation, and menu toggle -->
+    <header>
+        <!-- Logo and site title -->
+        <div class="logo">
+            <img src="./assets/images/user-secret-solid.svg" alt="logo" />
+            <a href="./index.html"><h1>Moshe's Portfolio</h1></a>
+        </div>
+        <!-- Hamburger menu toggle -->
+        <input type="checkbox" id="menu-toggle" class="hidden">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <!-- Navigation menu -->
+        <nav class="navBar">
+            <ul>
+                <li class="nav-links"><a href="#home">Home</a></li>
+                <li class="nav-links"><a href="#about">About</a></li>
+                <li class="nav-links"><a href="#gallery">Gallery</a></li>
+                <li class="nav-links"><a href="#contactUs">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main class="menu-open">
+        <!-- Home section -->
+        <section id="home">
+            <h2>Portfolio</h2>
+            <p>Welcome to my Portfolio, enjoy reviewing some of my best prjects as a full-stack student</p>
+        </section>
+        <!-- Technologies section -->
+        <section class="technologies">
+            <img src="./assets/images/html5.svg" alt="HTML icon">
+            <img src="./assets/images/css3-alt.svg" alt="CSS icon">
+            <img src="./assets/images/js.svg" alt="JS icon">
+        </section>
+        <!-- About Me section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <!-- Profile image and personal information -->
+            <div class="aboutImg">
+                <img src="./assets/images/profilePicture.png" alt="profile Picture">
+            </div>
+            <h3>Moshe Ben Shimon</h3>
+            <p>Hello, I'm Moshe, 30 years old, working as a QA engineer in ShiftLive ltd. After years of checking code, finally starting to develop my own - hope you enjoy</p>
+            <p>
+                Email: Mosheb11234@gmail.com<br>
+                Phone: 053-8829184    
+            </p>
+            <!-- Download CV button -->
+            <div class="button-container">
+                <a href="./assets/files/משה בן שמעון - קורות חיים.pdf" class="download-button" download="./assets/files/משה בן שמעון - קורות חיים.pdf">
+                    Download CV
+                    <span>&#9660;</span>
+                </a>
+            </div>
+        </section>
+        <!-- Gallery section showcasing HTML + CSS projects -->
+        <section id="gallery">
+            <h2>HTML + CSS - עבודות נבחרות</h2>
+            <div id="container-gallery">
+                <div class="card">
+                    <img src="./assets/images/project1preview.png" alt="project 1 preview">
+                    <h3>project 1</h3>
+                    <p>example of HTML + CSS project, click to see ot download the project</p>
+                    <div class="projectTech">
+                        <img src="./assets/images/html5.svg" alt="HTML icon">
+                        <img src="./assets/images/css3-alt.svg" alt="CSS icon">
+                    </div>
+                    <a href="./HtmlProject/project1/presentation.html" class="previewBtn">click to view</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/project2preview.png" alt="project 2 preview">
+                    <h3>project 2</h3>
+                    <p>example of HTML + CSS project, click to see ot download the project</p>
+                    <div class="projectTech">
+                        <img src="./assets/images/html5.svg" alt="HTML icon">
+                        <img src="./assets/images/css3-alt.svg" alt="CSS icon">
+                    </div>
+                    <a href="./HtmlProject/project2/presentation.html" class="previewBtn">click to view</a>
+                </div> 
+                <div class="card">
+                    <img src="./assets/images/project3preview.png" alt="project 3 preview">
+                    <h3>project 3</h3>
+                    <p>example of HTML + CSS project, click to see ot download the project</p>
+                    <div class="projectTech">
+                        <img src="./assets/images/html5.svg" alt="HTML icon">
+                        <img src="./assets/images/css3-alt.svg" alt="CSS icon">
+                    </div>
+                    <a href="./HtmlProject/project3/presentation.html" class="previewBtn">click to view</a>
+                </div> 
+                <div class="card">
+                    <img src="./assets/images/project4preview.png" alt="project 4 preview">
+                    <h3>project 4</h3>
+                    <p>example of HTML + CSS project, click to see ot download the project</p>
+                    <div class="projectTech">
+                        <img src="./assets/images/html5.svg" alt="HTML icon">
+                        <img src="./assets/images/css3-alt.svg" alt="CSS icon">
+                    </div>
+                    <a href="./HtmlProject/project4/presentation.html" class="previewBtn">click to view</a>
+                </div> 
+                <div class="card">
+                    <img src="./assets/images/project5preview.png" alt="project 5 preview">
+                    <h3>project 5</h3>
+                    <p>example of HTML + CSS project, click to see ot download the project</p>
+                    <div class="projectTech">
+                        <img src="./assets/images/html5.svg" alt="HTML icon">
+                        <img src="./assets/images/css3-alt.svg" alt="CSS icon">
+                    </div>
+                    <a href="./HtmlProject/project5/presentation.html" class="previewBtn">click to view</a>
+                </div> 
+                <div class="card">
+                    <img src="./assets/images/project6preview.png" alt="project 6 preview">
+                    <h3>project 6</h3>
+                    <p>example of HTML + CSS project, click to see ot download the project</p>
+                    <div class="projectTech">
+                        <img src="./assets/images/html5.svg" alt="HTML icon">
+                        <img src="./assets/images/css3-alt.svg" alt="CSS icon">
+                    </div>
+                    <a href="./HtmlProject/project6/presentation.html" class="previewBtn">click to view</a>
+                </div>
+            </div>
+        </section>
+        <!-- contact US section -->
+        <section id="contactUs">
+            <div class="contact-container">
+                <h1>Contact Us</h1>
+                <p>feel free to contact me and leave a message - will get back to you ASAP</p>
+        
+                <form>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+        
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>    
+    </main>
+    <!-- Footer section -->
+    <footer>
+        <div class="contact-Icons">
+            <div class="contact-Icons-box">
+                <img src="./assets/images/Icon-location.png" alt="Location">
+                <h3>Zichron Yaakov, Israel</h3>
+            </div>
+            <div class="contact-Icons-box">
+                <img src="./assets/images/Icon-email.png" alt="Email">
+                <h3>Mosheb11234@gmail.com</h3>
+            </div>
+            <div class="contact-Icons-box">
+                <img src="./assets/images/Icon-whatsapp.png" alt="Whatsapp">
+                <h3>0538829184</h3>
+            </div>
+            <div class="contact-Icons-box">
+                <img src="./assets/images/Icon-phone.png" alt="Phone">
+                <h3>0538829184</h3>
+            </div>
+            <div class="contact-Icons-box"> 
+                <img src="./assets/images/Icon-linkedin.png" alt="Linkedin">
+                <h3>Moshe Ben Shimon</h3>
+            </div>
+            <div class="contact-Icons-box">
+                <img src="./assets/images/Icon-facebook.png" alt="facebook">
+                <h3>Moshe Ben Shimon</h3>
+            </div>
+        </div>
+        <div id="container-footer">
+            <p>all rights reserved</p>
+            <p>Moshe</p>
+        </div>
+    </footer>
+</body>
+</html>
